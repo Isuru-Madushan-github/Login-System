@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Open+Sans&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images.png);
+    background-size: cover;   
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    border: 3px solid #e4dfdf;
+    padding: 20px 40px;
+    width: 400px;
+    margin: 120px auto;
+    text-align: center;
+    background: rgba(160,160,160,0.3);
+}
+.container .form-container .title{
+    padding: 5px;
+}
+.container .form-container form input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-top: 18px;
+}
+.container .form-container form button{
+    width: 100px;
+    padding: 6px 2px;
+    border-radius: 12px;
+    background-color: rgb(38, 245, 38);
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container .form-container form small{
+    color: #888;
+}
+.container a{
+    text-decoration: none;
+}
+.container .form-container .title h5:last-child{
+    /* background: rgb( 209, 236, 241); */
+    padding: 2px;
+    margin-top: 5px;
+}

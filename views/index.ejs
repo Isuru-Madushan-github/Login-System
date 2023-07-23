@@ -1,0 +1,21 @@
+<%-include('header')-%>
+
+ <div class="container">
+    <div class="form-container">
+        <div class="title">
+            <h1 class="txt">Login System</h1>
+            <h5>Log in for the existing user</h5>
+            <%if(locals.message){%>
+                <h5 style="background: rgb( 209, 236, 241);"><%=message%></h4>
+            <% } %>
+        </div>
+        <form action="/login" method="POST">
+            <input type="email" name="email" placeholder="Enter your email here">
+            <small>Registered email address</small>
+            <input type="password" name="password" placeholder="Enter your password here">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+ </div>
+
+ <%-include('footer')-%>
